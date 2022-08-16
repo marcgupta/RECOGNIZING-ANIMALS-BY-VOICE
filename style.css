@@ -1,0 +1,128 @@
+.plate  {
+border-radius: 10px;
+width: 750px;
+height: 500px;
+box-shadow: 10px 10px 5px 5px rgba(128, 128, 128, 0.404);
+margin-left: 325px;
+margin-top: 50px;
+z-index: 1;
+
+}
+
+.plate2  {
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
+  box-shadow: 10px 10px 5px 5px rgba(128, 128, 128, 0.404);
+  margin-left: 100px;
+  top: 50px;
+  position: relative;
+  background-color: whitesmoke;
+  z-index: 9;
+  
+  }
+
+.bg {
+
+width: 750px;
+height: 500px;
+border-radius: 10px;
+bottom: 390px;
+position: relative;
+z-index: 1;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #968c8ca4; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: rgba(99, 98, 98, 0.658); 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  body {
+
+    background-color: rgba(61, 52, 52, 0.445);
+
+  }
+
+  h4 {
+
+position: relative;
+top: 100px;
+left: 100px;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 40px;
+font-weight: bold;
+color: rgba(43, 24, 24, 0.863);
+z-index: 10;
+
+  }
+
+  button {
+    
+    border-radius: 50px;
+    background-color: darkgrey;
+    font-size: 15px;
+    padding: 10px;
+    border-color: rgba(255, 255, 255, 0);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    color: black;
+    transition: background-color 2s ease-out 100ms;
+    transition: color 2s ease-out 100ms;
+    position: relative;
+    left: 85px;
+    
+    }
+    
+    button:hover {
+    
+        border-radius: 50px;
+        font-size: 15px;
+        padding: 10px;
+        background-color: rgb(71, 71, 71);
+        border-color: rgba(255, 255, 255, 0);
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: bold;
+        color: white;
+        position: relative;
+        
+        }
+
+        h3 {
+
+          font-family: 'Roboto Condensed', sans-serif;
+          position: relative;
+          left: 55px;
+
+        }
+
+        #result {
+
+          position: relative;
+          left: 65px;
+          width: 150px;
+          height: 100px;
+
+        }
+
+        h2 {
+
+          font-family: 'Roboto Condensed', sans-serif;
+          position: relative;
+          color: rgba(43, 24, 24, 0.863);
+          left: 400px;  
+          top: 200px;
+          z-index: 11;
+
+        }
